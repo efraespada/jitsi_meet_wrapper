@@ -13,7 +13,9 @@ dependencies:
     sdk: flutter
   # jitsi_meet_wrapper_platform_interface: ^0.0.3
   jitsi_meet_wrapper_platform_interface:
-    path: ../jitsi_meet_wrapper_platform_interface
+    git:
+      url: https://github.com/efraespada/jitsi_meet_wrapper.git
+      path: jitsi_meet_wrapper_platform_interface/
 
 dev_dependencies:
   flutter_test:
